@@ -1,0 +1,51 @@
+.headerBox {
+    text-align: center;
+}
+.headerTitle {
+    line-height: 10px;
+}
+
+@media (max-width: 767px) {
+.headerTitle {
+    font-size: 48px;
+}
+.headerSubtitle {
+    font-size: 24px;
+}
+}
+
+@media (min-width: 768px) {
+.headerTitle {
+    font-size: 56px;
+}
+.headerSubtitle {
+    font-size: 32px;
+}
+}
+
+@media (min-width: 1025px) {
+.headerTitle {
+    font-size: 56px;
+}
+.headerSubtitle {
+    font-size: 32px;
+}
+}
+
+@media (min-width: 2560px) {
+.headerTitle {
+    font-size: 84px;
+}
+.headerSubtitle {
+    font-size: 48px;
+}
+}
+
+@media (min-width: 3840px) {
+.headerTitle {
+    font-size: 112px;
+}
+.headerSubtitle {
+    font-size: 64px;
+}
+}

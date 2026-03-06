@@ -4,7 +4,7 @@
 
 .portfolioButtonSingle {
   display: inline-block;
-  background-color: cadetblue;
+  background-color: rgb(40, 85, 64);
   margin-left: 10px;
   border-radius: 6px;
   align-content: center;
@@ -43,8 +43,8 @@
 
 @media (min-width: 2560px) {
 .portfolioButtonSingle {
-  width: 225px;
-  height: 60px;
+  width: 188px;
+  height: 50px;
   font-size: 27px;
 }
 }

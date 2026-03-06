@@ -1,0 +1,38 @@
+.photoTypeOptionsBox {
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) {
+    .photoTypeOptionsBox {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .photoTypeOptionsBox {
+        gap: 200px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .photoTypeOptionsBox {
+        gap: 250px;
+    }
+}
+
+@media (min-width: 3840px) {
+    .photoTypeOptionsBox {
+        gap: 400px;
+    }
+}

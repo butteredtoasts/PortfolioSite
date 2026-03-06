@@ -1,4 +1,4 @@
-import FadeUp from "../FadeUp/FadeUp";
+import FadeUp from "../../reusable/FadeUp/FadeUp";
 
 import "./Header.css";
 

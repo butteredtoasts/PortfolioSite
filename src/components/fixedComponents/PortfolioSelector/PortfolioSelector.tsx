@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import "./PortfolioSelector.css"
-import FadeUp from "../FadeUp/FadeUp";
+import FadeUp from "../../reusable/FadeUp/FadeUp";
 
 function PortfolioSelector() {
     return(

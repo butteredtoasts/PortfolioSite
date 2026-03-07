@@ -1,0 +1,72 @@
+.linkBox {
+    position: relative;
+    display: inline-block;
+}
+
+.photoLinkImage {
+    border: 1px solid black;
+    display: block;
+    border-radius: 5px;
+    height: 100%;
+    transition: transform 0.6s ease;
+} .photoLinkImage:hover {
+    transform: translateY(-5px);
+}
+
+.portfolioLinkText {
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    bottom: -10px;
+    left: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .photoLinkImage {
+        width: 350px;
+    }
+}
+
+@media (min-width: 768px) {
+    .photoLinkImage {
+        width: 375px;
+    }
+    .portfolioLinkText {
+        padding: 10px 15px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .photoLinkImage {
+        width: 500px;
+    }
+    .portfolioLinkText {
+        padding: 15px 20px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .photoLinkImage {
+        width: 625px;
+    }
+    .portfolioLinkText {
+        padding: 19px 25px;
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 3840px) {
+    .photoLinkImage {
+        width: 1000px;
+    }
+    .portfolioLinkText {
+        padding: 30px 40px;
+        font-size: 60px;
+    }
+}

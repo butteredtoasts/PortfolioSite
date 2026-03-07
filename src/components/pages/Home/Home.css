@@ -1,0 +1,77 @@
+.homePhotosRow {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.homePortaitA {
+  width: 95%;
+}
+.homePortaitB {
+  width: 95%;
+  margin-top: 17.5%;
+}
+.homePortaitC {
+    width: 100%;
+    margin-top: 80%;
+}
+
+.aboutMe {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 767px) {
+.homePhotosRow {
+    width: 85%;
+    padding-bottom: 50px;
+}
+.homePortaitC {
+  width: 110%;
+  margin-top: 75%;
+}
+.aboutMe {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+}
+
+@media (min-width: 768px) {
+.homePhotosRow {
+    width: 700px;
+    padding-bottom: 50px;
+}
+.aboutMe {
+    font-size: 32px;
+}
+}
+
+@media (min-width: 1025px) {
+.homePhotosRow {
+    width: 1400px;
+}
+.aboutMe {
+    font-size: 32px;
+}
+}
+
+@media (min-width: 2560px) {
+.homePhotosRow {
+    width: 1750px;
+}
+.aboutMe {
+    font-size: 48px;
+}
+}
+
+@media (min-width: 3840px) {
+.homePhotosRow {
+    width: 2800px;
+}
+.aboutMe {
+    font-size: 64px;
+}
+}

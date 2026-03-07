@@ -32,7 +32,7 @@ function FadeUp({ children, delay = 0 } : Props) {
   return (
     <div
       ref={ref}
-      className={`fade-up ${visible ? "show" : ""}`}
+      className={`fadeUp ${visible ? "show" : ""}`}
       style={{ transitionDelay: `${delay}ms` }}
     >
       {children}

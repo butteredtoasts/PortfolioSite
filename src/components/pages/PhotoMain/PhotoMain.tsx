@@ -43,7 +43,7 @@ function PhotoMain() {
             ></p>
           </div>
           <div className="cameraPhotos">
-            <img src={photoshoot1} />
+            <img src={photoshoot1} className="cameraPhotos1"/>
             <img src={photoshoot2} />
           </div>
         </div>

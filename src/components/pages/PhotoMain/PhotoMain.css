@@ -1,38 +1,103 @@
 .photoTypeOptionsBox {
     border-bottom: 1px solid black;
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 30px;
     text-align: center;
 }
 
+.photoAboutFlexBox {
+    display: flex;
+    padding-bottom: 50px;
+}
+.photoAboutHeader {
+    margin-top: 1rem;
+    padding-left: 5%;
+    padding-bottom: 15px;
+    font-size: 36px;
+}
+.photoAboutText {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+.cameraPhotos {
+    margin-left: 10%;
+    margin-right: 10%;
+} .cameraPhotos img {
+    width: 400px;
+}
+
+/* Mobile */
 @media (max-width: 767px) {
-
+.photoAboutFlexBox {
+    display: block;
+}
+.cameraPhotos img {
+    width: 100%;
+}
 }
 
+/* Tablet */
 @media (min-width: 768px) {
-    .photoTypeOptionsBox {
-        display: flex;
-        justify-content: center;
-        gap: 25px;
-    }
+.photoTypeOptionsBox {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.cameraPhotos {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.cameraPhotos img {
+    width: 250px;
+}
 }
 
+/* 1080p */
 @media (min-width: 1025px) {
-    .photoTypeOptionsBox {
-        gap: 200px;
-    }
+.photoTypeOptionsBox {
+    gap: 200px;
+}
+.photoAboutHeader {
+    padding-left: 10%;
+}
+.photoAboutText {
+    margin-left: 10%;
+}
 }
 
+/*1440p */
 @media (min-width: 2560px) {
-    .photoTypeOptionsBox {
-        gap: 250px;
-    }
+.photoTypeOptionsBox {
+    gap: 250px;
+}
+.photoAboutHeader {
+    font-size: 45px;
+}
+.photoAboutText {
+    font-size: 25px;
+}
+.cameraPhotos img {
+    width: 500px;
+}
 }
 
+/* 2160p */
 @media (min-width: 3840px) {
-    .photoTypeOptionsBox {
-        gap: 400px;
-    }
+.photoTypeOptionsBox {
+    gap: 400px;
+}
+.photoAboutHeader {
+    font-size: 72px;
+}
+.photoAboutText {
+    font-size: 40px;
+}
+.cameraPhotos img {
+    width: 800px;
+}
 }

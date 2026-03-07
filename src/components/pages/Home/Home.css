@@ -2,7 +2,7 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
 }
 .homePortaitA {
   width: 95%;
@@ -20,9 +20,9 @@
     text-align: left;
     margin-left: 25%;
     margin-right: 25%;
-    margin-bottom: 150px;
 }
 
+/* Mobile */
 @media (max-width: 767px) {
 .homePhotosRow {
     width: 85%;
@@ -39,39 +39,42 @@
 }
 }
 
+/* Tablet */
 @media (min-width: 768px) {
 .homePhotosRow {
     width: 700px;
-    padding-bottom: 50px;
 }
 .aboutMe {
     font-size: 32px;
 }
 }
 
+/* 1080p */
 @media (min-width: 1025px) {
 .homePhotosRow {
-    width: 1400px;
+    width: 1000px;
 }
 .aboutMe {
-    font-size: 32px;
+    font-size: 20px;
 }
 }
 
-@media (min-width: 2560px) {
+/* 1440p */
+@media (min-width: 1921px) {
 .homePhotosRow {
-    width: 1750px;
+    width: 1250px;
 }
 .aboutMe {
-    font-size: 48px;
+    font-size: 25px;
 }
 }
 
-@media (min-width: 3840px) {
+/* 2160p */
+@media (min-width: 2561px) {
 .homePhotosRow {
-    width: 2800px;
+    width: 2000px;
 }
 .aboutMe {
-    font-size: 64px;
+    font-size: 40px;
 }
 }

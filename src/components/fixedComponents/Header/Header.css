@@ -5,6 +5,7 @@
     line-height: 10px;
 }
 
+/* Mobile */
 @media (max-width: 767px) {
 .headerTitle {
     font-size: 48px;
@@ -14,6 +15,7 @@
 }
 }
 
+/* Tablet */
 @media (min-width: 768px) {
 .headerTitle {
     font-size: 56px;
@@ -23,27 +25,30 @@
 }
 }
 
+/* 1080p */
 @media (min-width: 1025px) {
 .headerTitle {
-    font-size: 56px;
+    font-size: 48px;
 }
 .headerSubtitle {
     font-size: 32px;
 }
 }
 
-@media (min-width: 2560px) {
+/* 1440p */
+@media (min-width: 1921px) {
 .headerTitle {
-    font-size: 84px;
+    font-size: 60px;
 }
 .headerSubtitle {
-    font-size: 48px;
+    font-size: 40px;
 }
 }
 
-@media (min-width: 3840px) {
+/* 2160p */
+@media (min-width: 2561px) {
 .headerTitle {
-    font-size: 112px;
+    font-size: 96px;
 }
 .headerSubtitle {
     font-size: 64px;

@@ -22,7 +22,7 @@ return (
                 </div>
             </div>
         </FadeUp>
-        <FadeUp delay={750}>
+        <FadeUp delay={300}>
             <div className="aboutMe">
                 <p>
                     I have considered myself for a creative for some time now. For the

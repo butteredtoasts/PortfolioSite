@@ -1,0 +1,68 @@
+.contactsList ul {
+    list-style-type: none;
+}
+.contactsList li {
+    display: flex;
+    align-items: center;
+    line-height: 5em;
+    gap: 1em;
+}
+.contactsList a {
+    color: black;
+}
+.contactIcons {
+  color: rgb(40, 85, 64);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+.contactIcons {
+    font-size: 50px;
+}.contactsList a {
+    font-size: 20px;
+}
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+.contactsList ul {
+    font-size: 30px;
+}
+.contactsList li {
+    line-height: 5em;
+}
+.contactIcons {
+    font-size: 75px;
+}
+}
+
+/* 1080p and up */
+@media (min-width:1025px) {
+.contactsList ul {
+    font-size: 20px;
+}
+.contactsList li {
+    line-height: 5em;
+}
+.contactIcons {
+    font-size: 50px;
+}
+}
+
+@media (min-width: 1921px) {
+.contactsList ul {
+    font-size: 25px;
+}
+.contactIcons {
+    font-size: 63px;
+}
+}
+
+@media (min-width: 2561px){
+.contactsList ul {
+    font-size: 40px;
+}
+.contactIcons {
+    font-size: 100px;
+}
+}

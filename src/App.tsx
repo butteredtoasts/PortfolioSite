@@ -1,6 +1,7 @@
 import Navbar from './components/fixedComponents/Navbar/Navbar.tsx';
 import Home from './components/pages/Home/Home.tsx';
 import PhotoMain from './components/pages/PhotoMain/PhotoMain.tsx';
+import Contact from './components/pages/Contact/Contact.tsx';
 import FadeUp from './components/reusable/FadeUp/FadeUp.tsx';
 import { Routes, Route } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/portfolio" element={<PortfolioSelector />} />
         <Route path="/portfolio/photography" element={<PhotoMain />} />
         <Route path="/portfolio/photography/portraits" element={<PhotoPortraitEntries />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );

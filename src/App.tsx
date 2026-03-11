@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import './App.css'
 import Header from './components/fixedComponents/Header/Header.tsx';
 import PortfolioSelector from './components/fixedComponents/PortfolioSelector/PortfolioSelector.tsx';
+import PhotoPortraitEntries from './components/pages/PhotoPortraitEntries/PhotoPortraitEntries.tsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<PortfolioSelector />} />
         <Route path="/portfolio/photography" element={<PhotoMain />} />
+        <Route path="/portfolio/photography/portraits" element={<PhotoPortraitEntries />} />
       </Routes>
     </>
   );

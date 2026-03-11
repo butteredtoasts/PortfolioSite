@@ -12,6 +12,10 @@
     display: flex;
     padding-bottom: 50px;
 }
+.photographyAboutBox {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .photoAboutHeader {
     margin-top: 1rem;
     padding-left: 5%;

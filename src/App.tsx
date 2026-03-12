@@ -3,6 +3,7 @@ import Home from './components/pages/Home/Home.tsx';
 import PhotoMain from './components/pages/PhotoMain/PhotoMain.tsx';
 import Contact from './components/pages/Contact/Contact.tsx';
 import FadeUp from './components/reusable/FadeUp/FadeUp.tsx';
+import useSystemDarkMode from './components/fixedComponents/DarkModeSystem/DarkModeSystem.tsx';
 import { Routes, Route } from "react-router-dom";
 
 import './App.css'
@@ -11,6 +12,8 @@ import PortfolioSelector from './components/fixedComponents/PortfolioSelector/Po
 import PhotoPortraitEntries from './components/pages/PhotoPortraitEntries/PhotoPortraitEntries.tsx';
 
 function App() {
+  useSystemDarkMode();
+  
   return (
     <>
       <Navbar />

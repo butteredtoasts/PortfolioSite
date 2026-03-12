@@ -7,9 +7,6 @@
     line-height: 5em;
     gap: 1em;
 }
-.contactsList a {
-    color: black;
-}
 .contactIcons {
   color: rgb(40, 85, 64);
 }

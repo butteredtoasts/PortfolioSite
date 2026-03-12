@@ -8,6 +8,7 @@
     text-align: center;
 }
 body.dark .tazzworksInverter img {
+    border: 1px solid black;
     filter: invert(1);
 }
 

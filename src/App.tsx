@@ -10,6 +10,7 @@ import './App.css'
 import Header from './components/fixedComponents/Header/Header.tsx';
 import PortfolioSelector from './components/fixedComponents/PortfolioSelector/PortfolioSelector.tsx';
 import PhotoPortraitEntries from './components/pages/PhotoPortraitEntries/PhotoPortraitEntries.tsx';
+import PhotoEventEntries from './components/pages/PhotoEventEntries/PhotoEventEntries.tsx';
 
 function App() {
   useSystemDarkMode();
@@ -25,6 +26,7 @@ function App() {
         <Route path="/portfolio" element={<PortfolioSelector />} />
         <Route path="/portfolio/photography" element={<PhotoMain />} />
         <Route path="/portfolio/photography/portraits" element={<PhotoPortraitEntries />} />
+        <Route path="/portfolio/photography/events" element={<PhotoEventEntries />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>

@@ -1,0 +1,43 @@
+.devLinkOptionsBox {
+    border-bottom: 1px solid var(--border-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+body.dark .tazzworksInverter img {
+    filter: invert(1);
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+.devLinkOptionsBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+}
+
+/* 1080p */
+@media (min-width: 1025px) {
+.devLinkOptionsBox {
+    gap: 100px;
+}
+}
+
+/*1440p */
+@media (min-width: 1921px) {
+.devLinkOptionsBox {
+    gap: 125px;
+}
+}
+
+/* 2160p */
+@media (min-width: 2561px) {
+.devLinkOptionsBox {
+    gap: 200px;
+}
+}

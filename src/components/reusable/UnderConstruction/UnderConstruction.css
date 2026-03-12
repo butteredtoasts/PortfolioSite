@@ -1,0 +1,45 @@
+.constructionBox {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+.constructionBox img {
+    width: 300px;
+}
+}
+
+@media (min-width: 768px) {
+.constructionBox h1 {
+    font-size: 36px;
+}
+.constructionBox img {
+    width: 600px;
+}
+}
+
+@media (min-width: 1025px) {
+.constructionBox h1 {
+    font-size: 36px;
+}
+.constructionBox img {
+    width: 800px;
+}
+}
+
+@media (min-width: 1921px) {
+.constructionBox h1 {
+    font-size: 45px;
+}
+.constructionBox img {
+    width: 1000px;
+}
+}
+
+@media (min-width: 2561px) {
+.constructionBox h1 {
+    font-size: 72px;
+}
+.constructionBox img {
+    width: 1600px;
+}
+}

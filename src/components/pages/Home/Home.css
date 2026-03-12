@@ -5,13 +5,16 @@
     padding-bottom: 25px;
 }
 .homePortaitA {
-  width: 95%;
+    border: 1px solid var(--border-color);
+    width: 95%;
 }
 .homePortaitB {
-  width: 95%;
-  margin-top: 17.5%;
+    border: 1px solid var(--border-color);
+    width: 95%;
+    margin-top: 17.5%;
 }
 .homePortaitC {
+    border: 1px solid var(--border-color);
     width: 100%;
     margin-top: 80%;
 }

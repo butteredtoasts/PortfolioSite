@@ -3,7 +3,7 @@
 }
 
 body {
-  background: rgb(248, 246, 243);
+  background: rgb(245, 245, 245);
   color: black;
   font-family: "Gelasio", serif;
   --border-color: black;
@@ -12,9 +12,9 @@ body {
 }
 
 body.dark {
-  background: rgb(36, 36, 36);
-  color: white;
-  --border-color: white;
+  background: rgb(28, 28, 30);
+  color: #e6e6e6;
+  --border-color: rgb(245, 245, 245);
 } body.dark a {
-  color: white;
+  color: #e6e6e6;
 }

@@ -3,5 +3,16 @@
 }
 
 body {
+  background: white;
+  color: black;
   font-family: "Gelasio", serif;
+} body a {
+  color: black;
+}
+
+body.dark {
+  background: rgb(36, 36, 36);
+  color: white;
+} body.dark a {
+  color: white;
 }

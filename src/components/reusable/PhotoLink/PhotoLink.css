@@ -7,7 +7,7 @@
 }
 
 .photoLinkImage {
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     display: block;
     border-radius: 5px;
     height: 100%;

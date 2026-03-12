@@ -1,5 +1,5 @@
 .photoTypeOptionsBox {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--border-color);
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10%;

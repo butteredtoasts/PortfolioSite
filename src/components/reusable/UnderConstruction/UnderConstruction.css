@@ -2,12 +2,14 @@
     text-align: center;
 }
 
+/* Mobile */
 @media (max-width: 767px) {
 .constructionBox img {
     width: 300px;
 }
 }
 
+/* Tablet */
 @media (min-width: 768px) {
 .constructionBox h1 {
     font-size: 36px;
@@ -17,6 +19,7 @@
 }
 }
 
+/* 1080p */
 @media (min-width: 1025px) {
 .constructionBox h1 {
     font-size: 36px;
@@ -26,15 +29,17 @@
 }
 }
 
+/* 1440p */
 @media (min-width: 1921px) {
 .constructionBox h1 {
-    font-size: 45px;
+    font-size: 48px;
 }
 .constructionBox img {
-    width: 1000px;
+    width: 1064px;
 }
 }
 
+/* 2160p */
 @media (min-width: 2561px) {
 .constructionBox h1 {
     font-size: 72px;

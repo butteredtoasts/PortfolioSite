@@ -79,13 +79,13 @@ body {
 /* 1440p */
 @media (min-width: 1921px) {
 .wholeNavbar p {
-    font-size: 20px;
-    padding-right: 25px;
+    font-size: 21px;
+    padding-right: 27px;
 }
 
 .navbar a {
-    font-size: 20px;
-    margin-left: 62px;
+    font-size: 21px;
+    margin-left: 67px;
 }
 }
 

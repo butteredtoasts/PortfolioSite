@@ -9,7 +9,7 @@ import portraitC from "/src/assets/Self/Portrait C.jpg"
 function Home() {
 return (
         <>
-        <FadeUp delay={750}>
+        <FadeUp delay={300}>
             <div className="homePhotosRow">
                 <div>
                     <img src={portraitA} className="homePortaitA" alt="Photo #1 of me" />

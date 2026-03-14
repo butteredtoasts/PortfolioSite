@@ -4,7 +4,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <FadeUp delay={500}>
+    <FadeUp delay={0}>
       <header className="headerBox">
         <h1 className="headerTitle">Tazzworks</h1>
         <h2 className="headerSubtitle">Developer, Photographer, Creator</h2>

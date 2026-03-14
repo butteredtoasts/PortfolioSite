@@ -19,7 +19,7 @@ function FadeUp({ children, delay = 0 } : Props) {
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 0.2 }
+      { threshold: 0.0 }
     );
 
     if (ref.current) {

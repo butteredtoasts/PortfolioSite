@@ -88,18 +88,18 @@
 /* 1440p */
 @media (min-width: 1921px) {
 .photoEntryMain h1 {
-    font-size: 56px;
+    font-size: 64px;
 }
 .photoEntryMain h2 {
-    font-size: 30px;
+    font-size: 32px;
 }
 .photoEntryMain p {
-    font-size: 25px;
+    font-size: 27px;
 }
 .photoEntryFooter img {
-    margin-left: 25px;
-    margin-right: 25px;
-    width: 1000px;
+    margin-left: 27px;
+    margin-right: 27px;
+    width: 1064px;
 }
 }
 

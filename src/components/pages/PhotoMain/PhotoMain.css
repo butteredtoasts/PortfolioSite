@@ -74,16 +74,16 @@
 /*1440p */
 @media (min-width: 1921px) {
 .photoTypeOptionsBox {
-    gap: 250px;
+    gap: 266px;
 }
 .photoAboutHeader {
     font-size: 45px;
 }
 .photoAboutText {
-    font-size: 25px;
+    font-size: 27px;
 }
 .cameraPhotos img {
-    width: 500px;
+    width: 532px;
 }
 }
 

@@ -60,11 +60,11 @@
 /* 1440p */
 @media (min-width: 1921px) {
     .photoLinkImage {
-        width: 625px;
+        width: 665px;
     }
     .portfolioLinkText {
-        padding: 19px 25px;
-        font-size: 38px;
+        padding: 20px 27px;
+        font-size: 40px;
     }
 }
 

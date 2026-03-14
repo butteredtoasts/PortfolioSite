@@ -34,6 +34,8 @@ function Regeneron() {
                     researchers happy with my applications and making their work easier.
                 </p>
             </div>
+            </FadeUp>
+            <FadeUp delay={300}>
             <div className="regeneronBody">
                 <img src={award} />
                 <p>
@@ -61,6 +63,8 @@ function Regeneron() {
                     intrusive addition to their and only an improvment.
                 </p>
             </div>
+            </FadeUp>
+            <FadeUp delay={300}>
             <div className="regeneronBody">
                 <img src={tides} />
                 <p>

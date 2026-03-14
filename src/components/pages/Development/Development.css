@@ -32,7 +32,7 @@ body.dark .tazzworksInverter img {
 /*1440p */
 @media (min-width: 1921px) {
 .devLinkOptionsBox {
-    gap: 125px;
+    gap: 133px;
 }
 }
 

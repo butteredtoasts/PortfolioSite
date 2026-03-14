@@ -1,0 +1,76 @@
+.tazzworksBody {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+} .tazzworksBody img {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+} .tazzworksBody p {
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Redundant code that's also in Development.css
+but is also here because I'm dumb and will forget
+why this works later */
+body.dark .tazzworksInverter img {
+    border: 1px solid black;
+    filter: invert(1);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+.tazzworksBody img {
+    width: 300px;
+} .tazzworksBody p {
+    margin-top: 20px;
+}
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+.tazzworksBody img {
+    width: 500px;
+}
+.tazzworksBody p {
+    margin-left: 1em;
+    font-size: 32px;
+    margin-top: 20px;
+}
+}
+
+/* 1080p */
+@media (min-width: 1025px) {
+.tazzworksBody {
+    display: flex;
+    margin-bottom: 90px;
+} .tazzworksBody img {
+    width: 500px;
+} .tazzworksBody p {
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+}
+
+/* 1440p */
+@media (min-width: 1921px) {
+.tazzworksBody {
+    margin-bottom: 120px;
+} .tazzworksBody img {
+    width: 665px;
+} .tazzworksBody p {
+    font-size: 27px;
+}
+}
+
+/* 2160p */
+@media (min-width: 2561px) {
+.tazzworksBody {
+    margin-bottom: 180px;
+} .tazzworksBody img {
+    width: 1000px;
+} .tazzworksBody p {
+    font-size: 40px;
+}
+}

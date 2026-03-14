@@ -54,15 +54,15 @@ Styling:
     1080p:
         Body Font Size: 20px
     1440p:
-        Body Font Size: 25px
+        Body Font Size: 27px
     2160p:
         Body Font Size: 40px
     
     Images:
         After styling for mobile, all images should scale properly
         up from the 1080p format. 1440p image widths should be 
-        1080p's value plus a quarter. 2160p should be double of
+        1080p's value plus a third. 2160p should be double of
         1080p's image widths.
 
-        1080p screen's image width is 100 px -> 1440p's is 125px ->
+        1080p screen's image width is 100 px -> 1440p's is 133px ->
         2160p's is 200px

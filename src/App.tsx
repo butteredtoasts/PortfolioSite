@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <FadeUp delay={500}>
+      <FadeUp delay={100}>
       <Header />
       </FadeUp>
       <Routes>

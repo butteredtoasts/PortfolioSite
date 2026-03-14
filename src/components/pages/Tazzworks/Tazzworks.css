@@ -33,7 +33,6 @@ body.dark .tazzworksInverter img {
     width: 500px;
 }
 .tazzworksBody p {
-    margin-left: 1em;
     font-size: 32px;
     margin-top: 20px;
 }
@@ -47,6 +46,7 @@ body.dark .tazzworksInverter img {
 } .tazzworksBody img {
     width: 500px;
 } .tazzworksBody p {
+    margin-left: 1em;
     font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;

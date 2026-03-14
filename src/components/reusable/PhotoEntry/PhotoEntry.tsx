@@ -10,8 +10,8 @@ type PhotoEntryProps = {
     footerPhotos: string[];
 }
 
-function PhotoEntry({photos,  headerText, dateText, bodyText,footerPhotos}: PhotoEntryProps) {
-    return(
+function PhotoEntry({photos, headerText, dateText, bodyText, footerPhotos}: PhotoEntryProps) {
+    return (
         <>
         <div className="photoEntryBox">
             <div className="photoEntryMain">

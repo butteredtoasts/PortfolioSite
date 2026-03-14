@@ -25,7 +25,6 @@
     width: 500px;
 }
 .regeneronBody p {
-    margin-left: 1em;
     font-size: 32px;
     margin-top: 20px;
 }
@@ -39,6 +38,7 @@
 } .regeneronBody img {
     width: 500px;
 } .regeneronBody p {
+    margin-left: 1em;
     font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;

@@ -2,7 +2,7 @@ import FadeUp from "../../reusable/FadeUp/FadeUp";
 
 import "./Regeneron.css";
 
-import regeneronLogo from "/src/assets/Logos/Regeneron.png";
+import regeneronLogo from "/src/assets/Logos/regeneron.png";
 import award from "/src/assets/RegeneronAward.jpg";
 import tides from "/src/assets/TIDES.jpg";
 import extra from "/src/assets/Self/RegeneronExtra.jpg";

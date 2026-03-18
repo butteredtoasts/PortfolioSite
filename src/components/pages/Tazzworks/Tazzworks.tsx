@@ -1,4 +1,3 @@
-import FadeUp from "../../reusable/FadeUp/FadeUp";
 import DevEntry from "../../reusable/DevEntry/DevEntry"
 
 import "./Tazzworks.css"

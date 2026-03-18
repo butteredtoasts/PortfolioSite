@@ -36,6 +36,7 @@
     display: flex;
     margin-bottom: 90px;
 } .devBodyText img {
+    min-width: 500px;
     width: 500px;
 } .devBodyText p {
     margin-left: 1em;

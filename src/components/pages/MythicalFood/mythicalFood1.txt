@@ -1,0 +1,13 @@
+Minecraft is an open-source video game that allows third-party
+developers to alter or add additional code for endless gameplay
+possibilities. I have put together a mod using the source code that
+added additional food and crops that give the player access to
+special effects when grown and consumed. This is programmed
+primarily in Java using IntelliJ as an IDE and Gradle to build the
+application.
+<br></br>
+This project requires advanced knowledge of Java to pull off such as
+events, subscribers, lambdas, generics, the ability to read
+documentation, and more. Check out my GitHub in the Contact tab to
+see the code. This wasn't publicly posted but rather used on a couple
+private servers hosted by acquaintances and myself.

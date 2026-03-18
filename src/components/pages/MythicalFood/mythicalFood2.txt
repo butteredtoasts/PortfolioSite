@@ -1,0 +1,6 @@
+The textures you see here are some of the fruit textures I made myself in
+Photoshop. Admittedly, I'm not the most skilled when it comes to drawing.
+But I can still very easily make my own textures when it's only a 16x16
+resolution. This is a very small snippet of all the textures actually
+in my mod. Each food has at least seven unique textures when counting the
+growth stage textures for in its crop variant.

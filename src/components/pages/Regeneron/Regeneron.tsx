@@ -1,4 +1,3 @@
-import FadeUp from "../../reusable/FadeUp/FadeUp";
 import DevEntry from "../../reusable/DevEntry/DevEntry";
 
 import "./Regeneron.css";
@@ -14,9 +13,6 @@ import regText3 from "./regeneronText3.txt?raw";
 import regText4 from "./regeneronText4.txt?raw";
 
 function Regeneron() {
-    var regeneronLink =
-    "https://www.bio-itworld.com/news/2024/03/19/2024-innovative-practices-winners-in-informatics-collaboration-clinical-it-genomics";
-
     return (
         <>
             <DevEntry

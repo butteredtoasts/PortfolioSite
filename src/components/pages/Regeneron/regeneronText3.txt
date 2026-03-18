@@ -1,0 +1,16 @@
+Additionally, I used Power Platform to modernize the animal census
+process. What was originally done on paper is now done digitally
+using Power Apps and Power BI. The original process required several
+layers of transcription which was error-prone and time-consuming
+between each hand off. By the time any report reached the proper
+department, it's already days late and the next order of animals
+was going to be inaccurate leading to either a surplus or a shortage.
+Now the data, discrepancies, and accurate timestamps are automatically
+handled with less steps in between.
+<br></br> <br></br>
+It has become much easier to track KPIs through my work. Every
+record of data that gets passed from both my LabVoice workflows and
+Power Platform applications comes with unique IDs, the user,
+timestamps, processes done, and much more making it very easy to
+monitor efficiency. It's a business analyst's dream to receive my
+applications' data.

@@ -1,0 +1,22 @@
+So what did I actually do? As the TIDES name suggests, I worked on
+new forms of data capture and processing for experiments conducted
+by the company. Researchers across various departments i.e.
+Ophthalmology, Cardio, Services, etc. had difficulty translating
+data from their experiments into their devices. For example, the
+Opthalmology team was recording hours long voice memos during their
+tests to later transcribe that memo into Excel at their desk while
+listening to it at double speed. That's several hours a week wasted
+on just transcription of data that should only need to be recorded once.
+Their next best option, if best can be used, was the "human robot" where
+a second researcher would sit alongside the first one and record the
+data for them. The problem is the same but instead of putting the wasted
+transcription hours into one researcher it's handing it off to another.
+<br></br><br></br>
+My team's solution to this was <a href="https://www.labvoice.ai">LabVoice</a>
+, a JavaScript-based NLP tool built specifically for scientists to target
+this exact problem and much more. I designed and implemented several workflows
+that allowed researchers to simply speak into a device and immediately
+upload their data into formatted and organized Excel sheets. Every workflow
+was built with the user in mind using detailed constraints ensuring that I
+followed their naming conventions and formatting. This way it was not an
+intrusive addition to their and only an improvment.
